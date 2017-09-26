@@ -3,7 +3,12 @@ layout: default
 ---
 <article {% if page.feature-img %}class="feature-image"{% endif %}>
   <header style="background-image: url('{{ site.baseurl }}/{{ page.feature-img }}')">
-    <h1 class="title">{{ page.title }}</h1>
+    <h1 class="title">TESTs{{ page.title }}</h1>
   </header>
-  <section class="post-content">{{ content }}</section>
+  <section class="post-content">
+    <div class="navi">
+      asdjkfaskdjfkjaskj
+      {{ content }}
+    </div>
+  </section>
 </article>

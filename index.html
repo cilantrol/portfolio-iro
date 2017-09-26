@@ -4,7 +4,7 @@ layout: default
 
 <div class="home">
   {% if site.theme_settings.header_text %}
-  <div class="call-out" 
+  <div class="call-out"
   style="background-image: url('{{ site.baseurl }}/{{ site.theme_settings.header_text_feature_image }}')">
     {{ site.theme_settings.header_text }}
   </div>
@@ -13,9 +13,10 @@ layout: default
   <div class="work">
     <h2>My Work</h2>
     {% for project in site.portfolio limit:3 %}
-        <li>
-          <img src="{{ project.thumbnail-path }}" alt="{{ project.title }}"/>
-          <a href="{{ project.url }}">{{ project.title }}</a>
+        <li>          
+          <a href="{{ project.url }}">{{ project.title }}
+            <img src="{{ project.thumbnail-path }}" alt="{{ project.title }}"/>
+          </a>
           <p>{{ project.short-description }}</p>
         </li>
     {% endfor %}
