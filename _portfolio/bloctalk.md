@@ -7,12 +7,12 @@ short-description: real time chatting application
 ---
 
 {:#header-one}
-# Summary
+### Summary
 ---
 To create an application that allows different users to create a room stored on Firebase and engage in primitive communication via keyboard. The app allows users to change their username at any given time, which is stored locally as a cookie.
 
 {:#header-two}
-# Explanation
+### Explanation
 ---
 This application will be my first mostly unguided project. The work done here is mostly researched via online and later reinforced by my mentor, Junior.
 I followed no templates and created the styling  `CSS`, purely based on what I feel is correct. This explains the overuse of `position: fixed` and the non-uniform use of units such as - 'vh, rem, px, %'.
@@ -22,7 +22,7 @@ The project is done on Angular 1.6.4, Firebase 3.9.0, and Bootstrap 3.3.7. The g
 The frameworks used for this project were Google fonts and Ionic.
 
 {:align="center"}
-#### Technologies Used
+##### Technologies Used
 
 {:.techs align="center"}
   ![program](https://avatars2.githubusercontent.com/u/139426?v=4&s=400 "angular logo")
@@ -32,7 +32,7 @@ The frameworks used for this project were Google fonts and Ionic.
   ![program](https://avatars1.githubusercontent.com/u/6466306?v=4&s=200 "google font api logo")
 
 {:#header-three}
-# Problem
+### Problem
 ---
 The original objective was to create a functioning chatroom application void of all superflous functions. There were only 3 objectives in mind.
 1. Create an User
@@ -251,7 +251,7 @@ From a functionality stand point, the project is finished.
 
 
 {:#header-five}
-# Solution
+### Solution
 ---
 Provided as a TLDR; of diffcult encounters I've experienced while working on this.
 
@@ -265,7 +265,7 @@ css container height  | scroll y
 
 
 {:#header-six}
-# Results
+### Results
 ---
 
 Quality of life changes have been added to improve the user experience. They include -
@@ -286,6 +286,6 @@ Planned Additions:
 7. Further styling changes!
 
 {:#header-seven}
-# Conclusion
+### Conclusion
 ---
 ![development](https://i.imgur.com/4vcDd89.png "first release")
