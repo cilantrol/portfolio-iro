@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: "" # the subpath of your site, e.g. /blog/
-url: "http://cilantrol.github.io/" # the base hostname & protocol for your site
+url: "https://cilantrol.github.io/" # the base hostname & protocol for your site
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
@@ -25,7 +25,7 @@ theme_settings:
   dribbble:
   facebook:
   flickr:
-  github: "cilantrol.github.io"
+  github: "cilantrol"
   google_plus:
   instagram:
   linkedin:  # Full URL
