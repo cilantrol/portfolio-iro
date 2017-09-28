@@ -19,15 +19,15 @@ theme_settings:
 
   # Icons
   rss: false
-  email_address: # Full email address, e.g. "sam@example.com"
+  email_address: "gaowhui@gmail.com" # Full email address, e.g. "sam@example.com"
   behance:
   bitbucket:
-  dribbble: 
-  facebook: 
+  dribbble:
+  facebook:
   flickr:
-  github: "cilantrol/type-theme"
+  github: "cilantrol.github.io"
   google_plus:
-  instagram: 
+  instagram:
   linkedin:  # Full URL
   pinterest:
   reddit:
@@ -35,12 +35,12 @@ theme_settings:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: 
+  twitter:
   wordpress:
   youtube:
 
   # Scripts
-  google_analytics: # Tracking ID, e.g. "UA-000000-01"
+  google_analytics: "UA-107201421-1" # Tracking ID, e.g. "UA-000000-01"
   disqus_shortname:
   katex: true # Enable if using math markup
 
